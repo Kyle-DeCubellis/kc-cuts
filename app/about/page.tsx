@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import WaveDivider from "@/components/WaveDivider";
 import FadeInSection from "@/components/FadeInSection";
 import { CredentialBadgeGroup } from "@/components/CredentialBadge";
@@ -259,15 +260,15 @@ export default function AboutPage() {
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-14">
               {/* Kristina card */}
               <div className="bg-cream-50 border border-cream-200 rounded-sm p-6">
-                <div
-                  className="w-16 h-16 rounded-full bg-crimson-100 flex items-center justify-center mb-4"
-                  aria-hidden="true"
-                >
-                  <span className="font-display text-crimson-700 text-2xl font-semibold">
-                    K
-                  </span>
+                <div className="w-16 h-16 rounded-full overflow-hidden mb-4 relative">
+                  <Image
+                    src="/kristina.jpg"
+                    alt="Kristina Arroyo"
+                    fill
+                    className="object-cover object-top"
+                    sizes="64px"
+                  />
                 </div>
-                {/* TODO: Add real photography once summer headshot session complete */}
                 <h3 className="font-display text-2xl text-gray-900 mb-1">
                   Kristina Arroyo
                 </h3>
