@@ -147,7 +147,7 @@ export default function HomePage() {
           <FadeInSection direction="left">
             <div className="relative aspect-square max-w-sm mx-auto lg:mx-0 rounded-sm overflow-hidden">
               <Image
-                src="/kristina.jpg"
+                src="/kristina.png"
                 alt="Kristina Arroyo, licensed hairstylist and founder of KC Cuts and Style LLC"
                 fill
                 className="object-cover object-top"

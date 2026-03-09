@@ -262,7 +262,7 @@ export default function AboutPage() {
               <div className="bg-cream-50 border border-cream-200 rounded-sm p-6">
                 <div className="w-16 h-16 rounded-full overflow-hidden mb-4 relative">
                   <Image
-                    src="/kristina.jpg"
+                    src="/kristina.png"
                     alt="Kristina Arroyo"
                     fill
                     className="object-cover object-top"
