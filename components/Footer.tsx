@@ -114,11 +114,10 @@ export default function Footer() {
               <div className="flex items-center gap-2">
                 <MailIcon className="w-4 h-4 text-gold-500 flex-shrink-0" />
                 <a
-                  href="mailto:hello@kccutsandstyle.com"
+                  href="mailto:Kccutsnstyle@gmail.com"
                   className="font-body text-sm text-gray-400 hover:text-cream-100 transition-colors"
                 >
-                  {/* TODO: Confirm email address with Kristina */}
-                  hello@kccutsandstyle.com
+                  Kccutsnstyle@gmail.com
                 </a>
               </div>
             </div>

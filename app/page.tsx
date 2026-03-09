@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import type { Metadata } from "next";
 import Hero from "@/components/Hero";
 import ServiceCard from "@/components/ServiceCard";
@@ -144,50 +145,22 @@ export default function HomePage() {
       >
         <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <FadeInSection direction="left">
-            <div
-              className="relative aspect-square max-w-sm mx-auto lg:mx-0 rounded-sm overflow-hidden bg-cream-200 flex items-center justify-center"
-              style={{
-                background:
-                  "linear-gradient(135deg, #8B1A1A 0%, #3d1515 50%, #1a0a0a 100%)",
-              }}
-            >
-              {/* TODO: Add real photography once summer headshot session complete */}
-              <div className="text-center p-8">
-                <div
-                  className="w-24 h-24 rounded-full bg-gold-400/20 border border-gold-400/40 flex items-center justify-center mx-auto mb-4"
-                  aria-hidden="true"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="#d4a017"
-                    strokeWidth="1"
-                    className="w-12 h-12"
-                    aria-hidden="true"
-                  >
-                    <circle cx="6" cy="6" r="3" />
-                    <circle cx="6" cy="18" r="3" />
-                    <line x1="20" y1="4" x2="8.12" y2="15.88" />
-                    <line x1="14.47" y1="14.48" x2="20" y2="20" />
-                    <line x1="8.12" y1="8.12" x2="12" y2="12" />
-                  </svg>
-                </div>
-                <p className="font-display text-cream-200 text-lg italic">
-                  Photo coming soon
-                </p>
-                <p className="font-body text-gold-400 text-xs mt-1 tracking-wider">
-                  Kristina Arroyo
-                </p>
-              </div>
-
-              {/* Gold corner accent */}
+            <div className="relative aspect-square max-w-sm mx-auto lg:mx-0 rounded-sm overflow-hidden">
+              <Image
+                src="/kristina.jpg"
+                alt="Kristina Arroyo, licensed hairstylist and founder of KC Cuts and Style LLC"
+                fill
+                className="object-cover object-top"
+                sizes="(max-width: 1024px) 384px, 384px"
+                priority
+              />
+              {/* Gold corner accents */}
               <div
-                className="absolute top-4 right-4 w-12 h-12 border-t border-r border-gold-500/60"
+                className="absolute top-4 right-4 w-12 h-12 border-t border-r border-gold-500/60 z-10"
                 aria-hidden="true"
               />
               <div
-                className="absolute bottom-4 left-4 w-12 h-12 border-b border-l border-gold-500/60"
+                className="absolute bottom-4 left-4 w-12 h-12 border-b border-l border-gold-500/60 z-10"
                 aria-hidden="true"
               />
             </div>
