@@ -26,7 +26,7 @@ const testimonials = [
   },
   {
     quote:
-      "So easy to schedule and very talented. She understands sensory issues on a deep level — you can tell this is her calling, not just a job.",
+      "So easy to schedule and very talented. She understands sensory issues on a deep level • you can tell this is her calling, not just a job.",
     attribution: "Amanda K.",
     platform: "Facebook Review",
     stars: 5,

@@ -11,7 +11,7 @@ import { CredentialBadgeGroup } from "@/components/CredentialBadge";
 export const metadata: Metadata = {
   title: "Sensory-Friendly Mobile Haircuts | KC Cuts and Style LLC",
   description:
-    "KC Cuts and Style LLC — therapeutic, sensory-friendly mobile haircuts for children and adults with ASD and SPD. Serving Southborough, MA and surrounding MetroWest communities.",
+    "KC Cuts and Style LLC • therapeutic, sensory-friendly mobile haircuts for children and adults with ASD and SPD. Serving Southborough, MA and surrounding MetroWest communities.",
 };
 
 const credentials = [
@@ -30,7 +30,7 @@ const services = [
     description:
       "Designed for clients with ASD, SPD, and sensory sensitivities. Kristina works at your child's pace, in your home, with the accommodations that make haircuts possible.",
     details: [
-      "Mobile, in-home visits — your child's safe space",
+      "Mobile, in-home visits • your child's safe space",
       "Extended session times, no rush",
       "Weighted lap pads, noise-reducing tools available",
       "Full desensitization approach for first visits",
@@ -42,7 +42,7 @@ const services = [
     tagline: "Mobile · General",
     title: "Mobile Haircuts",
     description:
-      "Convenient, professional haircuts for the whole family — in the comfort of your own home. No waiting rooms, no unfamiliar environments.",
+      "Convenient, professional haircuts for the whole family • in the comfort of your own home. No waiting rooms, no unfamiliar environments.",
     details: [
       "All ages, all hair types",
       "Serving Southborough & 15-mile radius",
@@ -55,7 +55,7 @@ const services = [
     tagline: "Celebration",
     title: "Birthday Party Packages",
     description:
-      "Make your child's celebration special with an interactive hair styling party — braiding, styles, and fun for the whole group.",
+      "Make your child's celebration special with an interactive hair styling party • braiding, styles, and fun for the whole group.",
     details: [
       "Customized to your theme",
       "Great for neurodiverse friend groups",
@@ -68,7 +68,7 @@ const services = [
     tagline: "Education · Consulting",
     title: "Parent Training & Consulting",
     description:
-      "Learn the techniques Kristina uses with her own and her clients' children — from the award-winning \"From Tears to Trims!\" parent training program.",
+      "Learn the techniques Kristina uses with her own and her clients' children • from the award-winning \"From Tears to Trims!\" parent training program.",
     details: [
       "Individual family sessions",
       "Professional training for ABA providers",
@@ -91,7 +91,7 @@ export default function HomePage() {
             practice for families who thought that wasn&apos;t possible.&rdquo;
           </p>
           <p className="font-body text-gold-300 text-sm mt-4 tracking-widest uppercase">
-            — Kristina Arroyo, Licensed Hairstylist & ASD Parent
+            • Kristina Arroyo, Licensed Hairstylist & ASD Parent
           </p>
         </div>
       </section>
@@ -114,7 +114,7 @@ export default function HomePage() {
                 Services Built Around <em>Your Child</em>
               </h2>
               <p className="font-body text-gray-500 max-w-xl mx-auto">
-                From therapeutic first haircuts to family mobile services —
+                From therapeutic first haircuts to family mobile services •
                 Kristina brings 25+ years of experience to your door.
               </p>
             </div>
@@ -180,15 +180,15 @@ export default function HomePage() {
               </h2>
               <div className="gold-accent-left mb-6">
                 <p className="font-body text-gray-600 leading-relaxed">
-                  With over 25 years as a licensed hairstylist — and more than
-                  a decade specializing in sensory-friendly techniques — Kristina
+                  With over 25 years as a licensed hairstylist • and more than
+                  a decade specializing in sensory-friendly techniques • Kristina
                   Arroyo brings both professional mastery and deeply personal
                   understanding to every appointment.
                 </p>
               </div>
               <p className="font-body text-gray-600 leading-relaxed mb-6">
                 As a parent of a child with ASD herself, Kristina didn&apos;t
-                just build a service — she built the service she wished had
+                just build a service • she built the service she wished had
                 existed for her own family.
               </p>
 

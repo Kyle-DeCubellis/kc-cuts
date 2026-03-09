@@ -8,13 +8,13 @@ import { CredentialBadgeGroup } from "@/components/CredentialBadge";
 export const metadata: Metadata = {
   title: "About Kristina Arroyo",
   description:
-    "Meet Kristina Arroyo — licensed hairstylist with 25+ years experience, 10+ years specializing in sensory-friendly haircuts for clients with ASD and SPD, and a parent of a child with autism.",
+    "Meet Kristina Arroyo • licensed hairstylist with 25+ years experience, 10+ years specializing in sensory-friendly haircuts for clients with ASD and SPD, and a parent of a child with autism.",
 };
 
 const credentials = [
   {
     name: "NECC",
-    description: "New England Center for Children — provider partner",
+    description: "New England Center for Children • provider partner",
     type: "partner" as const,
   },
   {
@@ -55,7 +55,7 @@ const timeline = [
     year: "10+",
     label: "Years Specializing in\nSensory-Friendly Haircuts",
     detail:
-      "After recognizing an unmet need — first through her own child, then through her clientele — Kristina developed a specialized therapeutic approach.",
+      "After recognizing an unmet need • first through her own child, then through her clientele • Kristina developed a specialized therapeutic approach.",
   },
   {
     year: "100s",
@@ -115,7 +115,7 @@ export default function AboutPage() {
               <div className="space-y-5 font-body text-gray-600 leading-relaxed">
                 <p>
                   Long before KC Cuts and Style existed, Kristina Arroyo was
-                  just a mom — a licensed hairstylist and a mom — trying to give
+                  just a mom • a licensed hairstylist and a mom • trying to give
                   her child a haircut without tears. Her child has ASD, and what
                   should have been a simple routine was anything but.
                 </p>
@@ -127,7 +127,7 @@ export default function AboutPage() {
                 <p>
                   That realization sparked a decade of intensive study,
                   collaboration with ABA therapists, and development of a
-                  genuine therapeutic framework for haircuts — one that meets
+                  genuine therapeutic framework for haircuts • one that meets
                   sensory clients exactly where they are.
                 </p>
                 <p>
@@ -191,12 +191,12 @@ export default function AboutPage() {
               {
                 icon: "✦",
                 title: "Meet Them Where They Are",
-                body: "Every first visit starts with relationship-building, not scissors. Kristina may spend an entire appointment simply getting to know your child before any haircut happens. That&apos;s not a failure — that&apos;s the process.",
+                body: "Every first visit starts with relationship-building, not scissors. Kristina may spend an entire appointment simply getting to know your child before any haircut happens. That&apos;s not a failure • that&apos;s the process.",
               },
               {
                 icon: "✦",
                 title: "Your Home Is the Clinic",
-                body: "Salons are overwhelming — noise, lights, strangers, smells. By coming to you, Kristina removes the biggest sensory barrier from the start. Your child&apos;s space. Your child&apos;s rules.",
+                body: "Salons are overwhelming • noise, lights, strangers, smells. By coming to you, Kristina removes the biggest sensory barrier from the start. Your child&apos;s space. Your child&apos;s rules.",
               },
               {
                 icon: "✦",

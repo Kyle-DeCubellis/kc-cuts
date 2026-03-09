@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 const faqs = [
   {
     q: "How long is the waitlist?",
-    a: "Wait times vary depending on location and service needs. Kristina will give you an honest estimate when she follows up. We appreciate your patience — every family on this list matters.",
+    a: "Wait times vary depending on location and service needs. Kristina will give you an honest estimate when she follows up. We appreciate your patience • every family on this list matters.",
   },
   {
     q: "What happens after I submit?",
@@ -20,15 +20,15 @@ const faqs = [
   },
   {
     q: "Do I need a formal diagnosis to apply?",
-    a: "No. If your child has sensory sensitivities that make haircuts difficult — diagnosed or not — this is the right place. Kristina works with all sensory profiles.",
+    a: "No. If your child has sensory sensitivities that make haircuts difficult • diagnosed or not • this is the right place. Kristina works with all sensory profiles.",
   },
   {
     q: "Is there a consultation before the first haircut?",
-    a: "Yes. For sensory clients, Kristina typically begins with a conversation (by phone or in-person) to understand your child's specific needs before scheduling. The first in-home visit may be a \"meet and greet\" with no haircut at all — that's normal and expected.",
+    a: "Yes. For sensory clients, Kristina typically begins with a conversation (by phone or in-person) to understand your child's specific needs before scheduling. The first in-home visit may be a \"meet and greet\" with no haircut at all • that's normal and expected.",
   },
   {
     q: "What areas do you serve?",
-    a: "Southborough, MA and approximately a 15-mile radius — including Westborough, Marlborough, Northborough, Shrewsbury, and parts of Worcester. Not sure if you're in range? Submit the form and we'll let you know.",
+    a: "Southborough, MA and approximately a 15-mile radius • including Westborough, Marlborough, Northborough, Shrewsbury, and parts of Worcester. Not sure if you're in range? Submit the form and we'll let you know.",
   },
   {
     q: "How do I contact Kristina directly?",
@@ -93,7 +93,7 @@ export default function WaitlistPage() {
                       step: "2",
                       title: "Kristina reviews it personally",
                       detail:
-                        "Every submission is read by Kristina herself — not an assistant, not an auto-responder.",
+                        "Every submission is read by Kristina herself • not an assistant, not an auto-responder.",
                     },
                     {
                       step: "3",
@@ -134,11 +134,11 @@ export default function WaitlistPage() {
                 <p className="section-label text-gold-400 mb-2">A note from Kristina</p>
                 <p className="font-display text-xl italic leading-relaxed mb-3">
                   &ldquo;I know how exhausted you are. I know haircut day is one of
-                  the hardest days. That&apos;s exactly why I do this — and why I
+                  the hardest days. That&apos;s exactly why I do this • and why I
                   take every inquiry seriously.&rdquo;
                 </p>
                 <p className="font-body text-sm text-cream-300">
-                  — Kristina Arroyo, Licensed Hairstylist & ASD Parent
+                  • Kristina Arroyo, Licensed Hairstylist & ASD Parent
                 </p>
               </div>
             </FadeInSection>
@@ -149,7 +149,7 @@ export default function WaitlistPage() {
                   Privacy Promise
                 </h3>
                 <p className="font-body text-sm text-gray-600 leading-relaxed">
-                  Your information — and your family&apos;s health information —
+                  Your information • and your family&apos;s health information •
                   is never shared, sold, or used for marketing. It&apos;s used
                   solely to coordinate your care with Kristina.
                 </p>

@@ -212,10 +212,10 @@ export default function WaitlistForm() {
             aria-describedby={errors.hasDiagnosis ? "hasDiagnosis-error" : undefined}
           >
             <option value="">Select one…</option>
-            <option value="yes-asd">Yes — ASD (Autism Spectrum Disorder)</option>
-            <option value="yes-spd">Yes — SPD (Sensory Processing Disorder)</option>
-            <option value="yes-both">Yes — Both ASD & SPD</option>
-            <option value="yes-other">Yes — Other sensory diagnosis</option>
+            <option value="yes-asd">Yes • ASD (Autism Spectrum Disorder)</option>
+            <option value="yes-spd">Yes • SPD (Sensory Processing Disorder)</option>
+            <option value="yes-both">Yes • Both ASD & SPD</option>
+            <option value="yes-other">Yes • Other sensory diagnosis</option>
             <option value="no">No formal diagnosis, but sensory sensitivities</option>
             <option value="unsure">Unsure / Awaiting evaluation</option>
           </select>
