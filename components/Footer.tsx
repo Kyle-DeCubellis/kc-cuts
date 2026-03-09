@@ -20,7 +20,7 @@ export default function Footer() {
             <Link
               href="/"
               className="inline-flex items-center gap-3 mb-4 group"
-              aria-label="KC Cuts and Style — Home"
+              aria-label="KC Cuts and Style • Home"
             >
               <FooterLogo />
               <div>

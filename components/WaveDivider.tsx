@@ -1,5 +1,5 @@
 interface WaveDividerProps {
-  /** Fill color for the wave — matches the section below */
+  /** Fill color for the wave • matches the section below */
   fill?: string;
   /** Whether to flip the wave horizontally */
   flip?: boolean;

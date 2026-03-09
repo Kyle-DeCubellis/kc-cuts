@@ -6,21 +6,21 @@ import FadeInSection from "@/components/FadeInSection";
 export const metadata: Metadata = {
   title: "Resources",
   description:
-    "Resources for families of children with ASD and SPD — including a guide to sensory-friendly haircuts, what to expect, and tips to prepare your child.",
+    "Resources for families of children with ASD and SPD • including a guide to sensory-friendly haircuts, what to expect, and tips to prepare your child.",
 };
 
 const explainerSections = [
   {
     icon: "✦",
     title: "What Is a Sensory Haircut?",
-    body: `A sensory haircut is a therapeutic approach to hair cutting designed specifically for individuals with sensory processing differences — most commonly those with Autism Spectrum Disorder (ASD) or Sensory Processing Disorder (SPD).
+    body: `A sensory haircut is a therapeutic approach to hair cutting designed specifically for individuals with sensory processing differences • most commonly those with Autism Spectrum Disorder (ASD) or Sensory Processing Disorder (SPD).
 
 Unlike a traditional salon visit, a sensory haircut:
 • Takes place in a familiar environment (usually the client's own home)
-• Is paced entirely by the client's comfort level — never rushed
+• Is paced entirely by the client's comfort level • never rushed
 • Uses desensitization techniques developed in collaboration with ABA therapy principles
 • Accommodates specific sensory triggers: sound, touch, smell, visual stimulation
-• May take multiple visits before a full haircut is achieved — and that's intentional`,
+• May take multiple visits before a full haircut is achieved • and that's intentional`,
   },
   {
     icon: "✦",
@@ -40,11 +40,11 @@ The good news: with the right approach, they don't have to be.`,
   {
     icon: "✦",
     title: "How Kristina's Approach Is Different",
-    body: `Kristina has developed her therapeutic framework over 10+ years of direct work with sensory clients — informed by her collaborations with ABA therapists and her own experience as an ASD parent.
+    body: `Kristina has developed her therapeutic framework over 10+ years of direct work with sensory clients • informed by her collaborations with ABA therapists and her own experience as an ASD parent.
 
 Key elements of her approach:
 • **Location:** In your home, where your child already feels safe
-• **Desensitization:** Gradual, incremental exposure — scissors might not appear until the second or third visit
+• **Desensitization:** Gradual, incremental exposure • scissors might not appear until the second or third visit
 • **Predictability:** Consistent routine, consistent stylist, consistent environment
 • **Communication:** Uses visual supports and communication tools if helpful
 • **Pace:** Client leads. If they need to stop, they stop. Full stop.
@@ -53,21 +53,21 @@ Key elements of her approach:
   {
     icon: "✦",
     title: "Preparing Your Child for Their First Visit",
-    body: `You don't need to prepare perfectly — Kristina will guide you. But here are some things that can help:
+    body: `You don't need to prepare perfectly • Kristina will guide you. But here are some things that can help:
 
 **Before the visit:**
-• Let your child know someone is coming to help with their hair — use whatever language feels familiar
+• Let your child know someone is coming to help with their hair • use whatever language feels familiar
 • Show them photos or videos of what a haircut looks like (social stories can help)
 • Identify their favorite comfort items to have nearby
 • Think about the time of day when your child is most regulated
 
 **During the visit:**
-• Follow Kristina's lead — she'll signal when to engage and when to step back
+• Follow Kristina's lead • she'll signal when to engage and when to step back
 • Have your child's preferred snack, toy, or device available
 • Don't worry about a perfect outcome on visit one. Relationship first.
 
 **After:**
-• Celebrate whatever happened — even if it was just meeting Kristina
+• Celebrate whatever happened • even if it was just meeting Kristina
 • Note what worked and what didn't to share at the next visit`,
   },
 ];
@@ -89,14 +89,14 @@ const resources = [
   {
     title: "NECC (New England Center for Children)",
     description:
-      "One of the world's leading schools for children with autism — a KC Cuts partner.",
+      "One of the world's leading schools for children with autism • a KC Cuts partner.",
     url: "https://www.necc.org",
     type: "Partner",
   },
   {
     title: "BABAT",
     description:
-      "Behavioral Analyst Association of MA & CT — conference where Kristina presents.",
+      "Behavioral Analyst Association of MA & CT • conference where Kristina presents.",
     url: "https://www.babat.org",
     type: "Professional",
   },
@@ -125,7 +125,7 @@ export default function ResourcesPage() {
             <em className="text-gold-300">Prepare. Succeed.</em>
           </h1>
           <p className="font-body text-cream-300 text-lg max-w-xl mx-auto leading-relaxed">
-            Information and guidance for families navigating sensory haircuts —
+            Information and guidance for families navigating sensory haircuts •
             written from experience, not a textbook.
           </p>
         </div>
@@ -150,7 +150,7 @@ export default function ResourcesPage() {
             <p className="font-body text-gray-500 mb-12 max-w-xl">
               Whether you&apos;re brand new to sensory haircuts or have been
               struggling for years, this guide will help you understand what to
-              expect — and what&apos;s actually possible.
+              expect • and what&apos;s actually possible.
             </p>
           </FadeInSection>
 
@@ -230,7 +230,7 @@ export default function ResourcesPage() {
               @kccutsandstyle
             </h2>
             <p className="font-body text-gray-500 mb-8">
-              Tips, behind-the-scenes moments, and updates from Kristina —
+              Tips, behind-the-scenes moments, and updates from Kristina •
               directly from the families she serves.
             </p>
 
@@ -295,7 +295,7 @@ export default function ResourcesPage() {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="block bg-white border border-cream-200 rounded-sm p-5 hover:border-crimson-300 hover:shadow-sm transition-all group"
-                  aria-label={`${resource.title} — opens in new tab`}
+                  aria-label={`${resource.title} • opens in new tab`}
                 >
                   <div className="flex items-start justify-between gap-3 mb-2">
                     <h3 className="font-display text-xl text-gray-900 group-hover:text-crimson-700 transition-colors">

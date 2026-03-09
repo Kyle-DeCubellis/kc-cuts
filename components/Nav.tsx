@@ -53,7 +53,7 @@ export default function Nav() {
           <Link
             href="/"
             className="flex items-center gap-2.5 group"
-            aria-label="KC Cuts and Style — Home"
+            aria-label="KC Cuts and Style • Home"
           >
             <KCLogo />
             <div className="hidden sm:block">

@@ -81,7 +81,7 @@ export default function Hero() {
         >
           <p className="font-body text-cream-300 text-lg sm:text-xl max-w-2xl mx-auto mb-10 leading-relaxed">
             Mobile haircut services for children and adults with ASD, SPD, and
-            sensory sensitivities — brought to your home, on your terms, at your
+            sensory sensitivities • brought to your home, on your terms, at your
             child&apos;s pace.
           </p>
         </div>

@@ -17,18 +17,18 @@ const services = [
     title: "Sensory-Friendly Haircuts",
     icon: <HeartIcon className="w-8 h-8" />,
     description:
-      "Kristina's signature service — the reason KC Cuts exists. Designed specifically for clients with ASD, SPD, and other sensory sensitivities, these in-home visits are led by a licensed hairstylist who is also an ASD parent and trained therapeutic specialist.",
+      "Kristina's signature service • the reason KC Cuts exists. Designed specifically for clients with ASD, SPD, and other sensory sensitivities, these in-home visits are led by a licensed hairstylist who is also an ASD parent and trained therapeutic specialist.",
     whatToExpect: [
       "Initial consultation call to understand your child's specific sensory profile",
-      "First visit may be a \"meet and greet\" — building trust before any scissors appear",
+      "First visit may be a \"meet and greet\" • building trust before any scissors appear",
       "You choose the environment: lighting, music, white noise, distractions",
-      "Sessions run longer than a typical haircut — never rushed",
+      "Sessions run longer than a typical haircut • never rushed",
       "Weighted lap pads, noise-reducing tools, and sensory accommodations available",
       "Full desensitization approach for first-time clients",
       "Ongoing visits build a routine your child can predict and feel safe in",
     ],
     accommodations: [
-      "Mobile — we come to you",
+      "Mobile • we come to you",
       "Flexible session length",
       "Calm, predictable structure",
       "ABA-informed techniques",
@@ -46,7 +46,7 @@ const services = [
     title: "General Mobile Haircuts",
     icon: <HouseIcon className="w-8 h-8" />,
     description:
-      "Professional haircuts for the whole family — brought to your home. Whether you have a child who prefers familiar environments, a family member with mobility challenges, or simply love the convenience of in-home service, Kristina brings the salon to you.",
+      "Professional haircuts for the whole family • brought to your home. Whether you have a child who prefers familiar environments, a family member with mobility challenges, or simply love the convenience of in-home service, Kristina brings the salon to you.",
     whatToExpect: [
       "Scheduling by phone, text, or Instagram DM",
       "Kristina arrives with full professional kit",
@@ -70,7 +70,7 @@ const services = [
     title: "Birthday Party Packages",
     icon: <StarIcon className="w-8 h-8" />,
     description:
-      "Transform birthday celebrations into a creative, sensory-conscious hair styling experience. Kristina works with your theme to create a fun, inclusive event — perfect for neurodiverse birthday parties where a traditional party environment might be overwhelming.",
+      "Transform birthday celebrations into a creative, sensory-conscious hair styling experience. Kristina works with your theme to create a fun, inclusive event • perfect for neurodiverse birthday parties where a traditional party environment might be overwhelming.",
     whatToExpect: [
       "Custom consultation to match your party theme",
       "Braiding, styling, and fun updos for guests",
@@ -95,9 +95,9 @@ const services = [
     title: "Parent Training & Consulting",
     icon: <AcademicIcon className="w-8 h-8" />,
     description:
-      "Kristina's \"From Tears to Trims!\" program teaches parents and caregivers the same techniques she uses with her clients — so you can support the haircut process at home between visits. She also offers professional consulting for ABA providers, special education schools, and other organizations serving neurodiverse populations.",
+      "Kristina's \"From Tears to Trims!\" program teaches parents and caregivers the same techniques she uses with her clients • so you can support the haircut process at home between visits. She also offers professional consulting for ABA providers, special education schools, and other organizations serving neurodiverse populations.",
     whatToExpect: [
-      '"From Tears to Trims!" parent workshops — group and individual formats',
+      '"From Tears to Trims!" parent workshops • group and individual formats',
       "One-on-one family training sessions",
       "Professional development for ABA therapists and aides",
       "Presentations at conferences and organizations (BABAT and others)",
@@ -125,7 +125,7 @@ const services = [
       "Beginner-friendly instruction",
       "Small group or individual format",
       "Classic braids, cornrows, and creative styles",
-      "Ongoing class schedule — inquire for upcoming dates",
+      "Ongoing class schedule • inquire for upcoming dates",
     ],
     accommodations: [
       "Sensory-aware class environment",
@@ -161,7 +161,7 @@ export default function ServicesPage() {
             <em className="text-gold-300">How We Do It.</em>
           </h1>
           <p className="font-body text-cream-300 text-lg max-w-xl mx-auto leading-relaxed">
-            Every service at KC Cuts is designed with intention — for the child
+            Every service at KC Cuts is designed with intention • for the child
             who needs extra time, the family that needs extra support, and the
             community that deserves better options.
           </p>
@@ -176,7 +176,7 @@ export default function ServicesPage() {
           <LocationIcon className="w-4 h-4 text-gold-500 flex-shrink-0" />
           <p className="font-body text-sm text-gray-600">
             {/* TODO: Confirm service area towns with Kristina */}
-            Serving <strong>Southborough, MA</strong> and a 15-mile radius —
+            Serving <strong>Southborough, MA</strong> and a 15-mile radius •
             Westborough, Marlborough, Northborough, Shrewsbury, and surrounding
             MetroWest communities.
           </p>
